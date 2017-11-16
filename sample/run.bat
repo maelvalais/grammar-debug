@@ -1,0 +1,1 @@
+node ../bin/grammar-debug.js grammar.tmLanguage file.txt > result.txt

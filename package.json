@@ -1,14 +1,17 @@
 {
   "name": "grammar-debug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A debugging utility for TextMate grammar authors",
-  "main": "index.js",
+  "main": "bin/grammar-debug.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexandru Dima",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "vscode-textmate": "^2.0.1"
+  },
+  "bin": {
+    "grammar-debug": "bin/grammar-debug.js"
   }
 }
